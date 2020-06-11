@@ -1,0 +1,22 @@
+{
+  "name": "todo",
+  "version": "1.0.0",
+  "description": "ToDo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ViktarDaniliuk/ToDo.git"
+  },
+  "keywords": [
+    "ToDo"
+  ],
+  "author": "Viktar Daniliu <daniliukviktar@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ViktarDaniliuk/ToDo/issues"
+  },
+  "homepage": "https://github.com/ViktarDaniliuk/ToDo#readme"
+}
