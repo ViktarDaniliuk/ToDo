@@ -1,15 +1,15 @@
-<h2>ToDos</h2>
+<h2>{{title}}</h2>
 
 {{#if todos.length}}
-   <ul>
+   <ul class="collection">
       {{#each todos}}
-         <li class="todo">
+         <li class="todo collection-item">
             <label>
                {{#if completed}}
-                  <input type="checkbox" checked>
+                  <input type="checkbox" checked />
                   <span class="completed">{{title}}</span>
                {{else}}
-                  <input type="checkbox">
+                  <input type="checkbox" />
                   <span>{{title}}</span>
                {{/if}}
                <button class="btn btn-small">Save</button>
