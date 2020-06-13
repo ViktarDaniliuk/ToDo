@@ -9,12 +9,13 @@
                   {{#if completed}}
                      <input type="checkbox" checked />
                      <span class="completed">{{title}}</span>
+                     <button class="btn btn-small" type="submit">Cancel</button>
                   {{else}}
                      <input type="checkbox" />
                      <span>{{title}}</span>
+                     <button class="btn btn-small" type="submit">Done</button>
                   {{/if}}
                   <input type="hidden" value="{{_id}}" name="id" />
-                  <button class="btn btn-small" type="submit">Done</button>
                </label>
             </form>
          </li>
